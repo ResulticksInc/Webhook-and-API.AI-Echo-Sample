@@ -149,7 +149,7 @@ restService.post("/schedule", function (req, res) {
   });
 });
 
-restService.post("/gartner", function (req, res) {
+restService.post("/gartners", function (req, res) {
 
 
   var guessNum = req.body.result &&
